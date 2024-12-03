@@ -1,0 +1,111 @@
+.card {
+    margin-top: 4rem;
+    display: flex;
+    width: 57.875rem;
+    height: 21.5rem;
+    padding-right: 1.5rem;
+    align-items: center;
+    gap: 1.5rem;
+    flex-shrink: 0;
+    border-radius: 1.75rem;
+    background: var(--sys-light-surface-variant, #FFF);
+    box-shadow: 0px 4px 6px -2px rgba(62, 60, 62, 0.04), 0px 4px 28px 4px rgba(62, 60, 62, 0.12);
+}
+
+.card-picture {
+    width: 24.375rem;
+    height: 21.5rem;
+    flex-shrink: 0;
+    border-top-left-radius: 1.75rem;
+    border-bottom-left-radius: 1.75rem;
+}
+
+.card-details {
+    display: flex;
+    width: 29.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    flex-shrink: 0;
+    margin: 2.5rem 0 2.5rem 1.5rem;
+}
+
+.card-details h3 {
+    align-self: stretch;
+    color: var(--sys-light-on-surface, #3E3C3E);
+    margin: 0;
+    /* Display xs/bold */
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+
+}
+
+.card-details p {
+    align-self: stretch;
+    color: var(--sys-light-on-surface, #3E3C3E);
+    margin: 0;
+
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+
+}
+
+.card-details button {
+    display: flex;
+    padding: 0.5rem 0.25rem;
+    align-items: center;
+    gap: 0.25rem;
+    border-radius: 0.25rem;
+    color: var(--sys-light-primary, #0762C8);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    border: 0;
+    background-color: #FFF;
+    cursor: pointer;
+    /* 150% */
+}
+
+.card-details button svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+.card-details-tags {
+    display: flex;
+    width: auto;
+    height: 1.75rem;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.card-details-tags p {
+    display: flex;
+    align-items: flex-start;
+    width: auto;
+    padding: 0.25rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.25rem 0 0;
+    border-radius: 1rem;
+    background: var(--sys-light-information-container, #E0F2FE);
+    color: var(--sys-light-on-information-container, #055580);
+    text-align: center;
+
+    /* Text sm/Medium */
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+    /* 142.857% */
+}

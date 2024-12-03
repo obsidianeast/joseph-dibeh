@@ -1,0 +1,145 @@
+header {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.header{
+    
+    display: flex;
+    
+}
+
+.relative-menu{
+    position: relative;
+    
+}
+.avatar {
+    border-radius: 4.5rem;
+    border: 0.25rem solid var(--sys-light-on-inverse-background, #FFF);
+    background: lightgray 50% / cover no-repeat;
+
+    /* overlay-light */
+    box-shadow: 0px 4px 6px -2px rgba(62, 60, 62, 0.04), 0px 4px 28px 4px rgba(62, 60, 62, 0.12);
+    width: 4.25rem;
+    height: 4.25rem;
+
+    flex-shrink: 0;
+    cursor: pointer;
+    margin-top: 2.5rem;
+    margin-right: 58rem;
+}
+
+.menu-button {
+
+    
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 4.5rem;
+    width: auto;
+    height: 2.5rem;
+    background: var(--sys-light-surface-variant, #FFF);
+    z-index: 10;
+    /* overlay-light */
+    box-shadow: 0px 4px 6px -2px rgba(62, 60, 62, 0.04), 0px 4px 28px 4px rgba(62, 60, 62, 0.12);
+
+    margin-top: 2.5rem;
+    
+    padding: 0.875rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+#normal {
+    display: block;
+    
+
+}
+
+#clicked {
+    display: none;
+    
+}
+
+
+
+.menu {
+    display: none;
+    width: 13.5rem;
+    padding: 0.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    z-index: 20;
+    position: absolute;
+    border-radius: 1rem;
+    background: #FFF;
+    right: 0.5rem;
+    top: 7.5rem;
+    /* overlay-light */
+    box-shadow: 0px 4px 6px -2px rgba(62, 60, 62, 0.04), 0px 4px 28px 4px rgba(62, 60, 62, 0.12);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+.menu-item {
+    display: flex;
+    padding: 0.75rem;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 12rem;
+}
+
+.menu-item span {
+    color: var(--sys-light-on-surface, #3E3C3E);
+    text-align: center;
+
+    /* Text md/semibold */
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    /* 150% */
+}
+
+.menu-item:hover {
+    background-color: rgba(7, 98, 200, 0.16);
+}
+
+/*Header design 2*/
+
+.previous {
+    display: inline-flex;
+    padding: 0.75rem;
+    align-items: flex-start;
+    gap: 0.5rem;
+
+    border-radius: 4.5rem;
+    border: 0.25rem solid var(--sys-light-on-inverse-background, #FFF);
+    background: var(--sys-light-surface-variant, #FFF);
+
+
+    /* overlay-light */
+    box-shadow: 0px 4px 28px 4px rgba(62, 60, 62, 0.12), 0px 4px 6px -2px rgba(62, 60, 62, 0.04);    
+    
+    
+
+    flex-shrink: 0;
+    cursor: pointer;
+    margin-top: 2.5rem;
+    margin-right: 58rem;
+}

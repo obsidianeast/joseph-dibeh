@@ -1,0 +1,102 @@
+footer {
+    display: flex;
+ 
+    
+    padding: 4rem 8.625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    background: var(--sys-light-information-container, #E0F2FE);
+    margin-top: 4rem;
+}
+
+footer h2 {
+    color: var(--sys-light-on-information-container, #055580);
+    margin: 0;
+    /* Display md/bold */
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.75rem;
+    /* 122.222% */
+    letter-spacing: -0.045rem;
+}
+
+.support {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+    flex: 1 0 0;
+}
+
+footer h6 {
+    color: var(--sys-light-on-information-container, #055580);
+    margin: 0;
+    /* Text xl/bold */
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem;
+    /* 150% */
+}
+
+.contact a {
+    align-self: stretch;
+    color: var(--sys-light-on-information-container, #055580);
+    text-decoration: none;
+    /* Text xl/regular */
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+    /* 150% */
+}
+
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    flex: 1 0 0;
+}
+
+.socials-img {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.socials-img img {
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+#instagram-ico{
+    padding: 0rem 0.00088rem 0.00031rem 0rem;
+
+}
+.copyright{
+    color: var(--sys-light-on-information-container, #055580);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem; 
+}

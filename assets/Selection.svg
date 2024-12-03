@@ -1,0 +1,8 @@
+<svg class="selection" width="294" height="108" viewBox="0 0 294 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="9" y="9" width="276" height="90" stroke="#0762C8" stroke-width="2"/>
+<rect x="1" y="1" width="14" height="14" fill="white" stroke="#0762C8" stroke-width="2"/>
+<rect x="1" y="93" width="14" height="14" fill="white" stroke="#0762C8" stroke-width="2"/>
+<rect x="279" y="1" width="14" height="14" fill="white" stroke="#0762C8" stroke-width="2"/>
+<rect x="279" y="93" width="14" height="14" fill="white" stroke="#0762C8" stroke-width="2"/>
+<line x1="8" y1="79.5" x2="286" y2="79.5" stroke="#0762C8"/>
+</svg>
