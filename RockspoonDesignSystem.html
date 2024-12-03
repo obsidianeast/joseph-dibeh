@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/Vector.png">
+    <script type="text/javascript" src="interaction/main.js"></script>
+    <link rel="stylesheet" href="design/header.css">
+    <link rel="stylesheet" href="design/main.css">
+    <link rel="stylesheet" href="design/home.css">
+    <link rel="stylesheet" href="design/info-menu.css">
+    <link rel="stylesheet" href="design/card.css">
+    <link rel="stylesheet" href="design/footer.css">
+    <link rel="stylesheet" href="design/rds.css">
+
+
+    <title>RockSpoon Design System</title>
+</head>
+
+<body>
+
+
+
+    <header>
+
+
+        <div class="header">
+            <div class="previous" onclick="document.location.href='index.html'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                    <path d="M31.6666 19.9997H8.33325M8.33325 19.9997L19.9999 31.6663M8.33325 19.9997L19.9999 8.33301"
+                        stroke="#3E3C3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+
+
+
+            <div class="relative-menu">
+                <div class="menu-button" id="menu-background" onclick="openMenu()">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        id="normal">
+                        <path d="M5 20H35M5 10H35M5 30H35" stroke="#3E3C3E" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        id="clicked">
+                        <path d="M30 10L10 30M10 10L30 30" stroke="#3E3C3E" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+
+
+
+                </div>
+
+
+
+                <div id="menu" class="menu">
+                    <div class="menu-container">
+                        <div class="menu-item" onclick="document.location.href='index.html'">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                fill="none">
+                                <path
+                                    d="M7.5 18.3334V10.0001H12.5V18.3334M2.5 7.50008L10 1.66675L17.5 7.50008V16.6667C17.5 17.1088 17.3244 17.5327 17.0118 17.8453C16.6993 18.1578 16.2754 18.3334 15.8333 18.3334H4.16667C3.72464 18.3334 3.30072 18.1578 2.98816 17.8453C2.67559 17.5327 2.5 17.1088 2.5 16.6667V7.50008Z"
+                                    stroke="#3E3C3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <span>Home</span>
+                        </div>
+                        <div class="menu-item" onclick="document.location.href='about.html'">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                fill="none">
+                                <path
+                                    d="M16.6667 17.5V15.8333C16.6667 14.9493 16.3155 14.1014 15.6904 13.4763C15.0653 12.8512 14.2174 12.5 13.3334 12.5H6.66671C5.78265 12.5 4.93481 12.8512 4.30968 13.4763C3.68456 14.1014 3.33337 14.9493 3.33337 15.8333V17.5M13.3334 5.83333C13.3334 7.67428 11.841 9.16667 10 9.16667C8.15909 9.16667 6.66671 7.67428 6.66671 5.83333C6.66671 3.99238 8.15909 2.5 10 2.5C11.841 2.5 13.3334 3.99238 13.3334 5.83333Z"
+                                    stroke="#3E3C3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <span>About</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="pic-hero"></div>
+        </section>
+
+
+        <section class="content">
+
+
+            <article id="introduction">
+
+                <h1 class="headline-intro">
+                    RockSpoon Design System
+                </h1>
+
+                <div class="tags">
+                    <p>Fintech</p>
+                    <p>Food Technology</p>
+                    <p>SAAS</p>
+                </div>
+
+                <div class="grid-details">
+
+                    <div class="description">
+
+                        <p class="des-typography">To restaurateurs, RockSpoon has long been known as a one home
+                            SaaS platform to manage every aspect of their needs and daily operations.</p>
+
+                        <p class="des-typography">Despite our online presence, our designers grappled with maintaining
+                            consistency
+                            and reliability in feature updates, while developers struggled to translate designs into
+                            reality
+                            for a total of 4 applications: <span style="font-weight: 600;">Fixed POS, Mobile POS, Payment Tablet, and KDS  
+                                (Kitchen Display Screen).</span></p>
+
+                        <p class="des-typography">This prompted us to start the development of our first design system,
+                            and I took the lead, collaborating with our engineers
+                            to meticulously craft a robust design system from the ground up.</p>
+                    </div>
+                    <div class="role-section">
+                        <div class="part1">
+                            <div class="role-item">
+                                <h2>ROLE</h2>
+                                <p>Lead Product Designer</p>
+                            </div>
+
+                            <div class="role-item">
+                                <h2>RESPONSOBILITIES</h2>
+                                <p>Tokens Foundation</p>
+                                <p>components Strategy</p>
+                                <p>Documentation</p>
+                                <p>Feature Organization</p>
+                                <p>Prototyping</p>
+                            </div>
+
+                        </div>
+
+                        <div class="part2">
+                            <div class="role-item">
+                                <h2>PLATFORMS</h2>
+                                <p>Figma</p>
+                                <p>Jira Boards</p>
+                                <p>Chat GPT</p>
+                            </div>
+
+                            <div class="role-item">
+                                <h2>TIMEFRAME</h2>
+                                <p>Oct, 2022 till June, 2023 <br>
+                                    <span style="color: var(--sys-light-on-background-variant, #7D7F82);">
+                                        (9 months)</span>
+                                </p>
+                            </div>
+
+                        </div>
+</div>
+                    </div>
+               
+               
+                </article>
+                
+
+
+
+                <div class="note">
+                    <p> Since all our devices run android OS, 
+                        we had to follow <span style="font-weight: 600;">Google Material Design System</span> 
+                        guidelines, which also provided us with all their components. 
+                        But if you truly want to maximize the potential of the native 
+                        Android UI then you have 
+                        to build it yourself, Google doesn’t give you everything.</p>
+                </div>
+
+
+
+                
+
+
+                
+                <article id="approach">
+                
+                    <h4 class="title">APPROACH</h4>
+                    <h2 class="headline">
+                        Atomic Design System                    
+                    </h2>
+                <div class="grid-details">
+
+                    <div class="description">
+
+                        <p class="des-typography">I made my choice to follow the Atomic Design System methodology. 
+                            This approach breaks UI elements into reusable components 
+                            <span style="font-weight: 600;">(atoms, molecules, organisms, templates, and pages)</span> 
+                            for a scalable and consistent design.</p>
+                        <p class="des-typography">Then, since our theme layer and
+                             the majority of the elements have already been established, 
+                             I audited the products and searched for patterns that could help 
+                            me define a <span style="font-weight: 600;">style guide</span>, and create <span style="font-weight: 600;">components</span> from.</p>
+
+                    </div>
+                    
+                        <div class="ads">
+                            <img src="assets/par1.svg" alt="Atomic Design System"/>
+                        </div>
+                  
+</article>
+
+<article id="StyleGuide">
+    <div class="tokens">
+    <h4 class="title">STYLE GUIDE</h4>
+    <h2 class="headline">But First: Tokens!</h2>
+    <div class="text tokens-des">
+    <p>You don't start building a house without it's foundation, the same thing applies to design systems.</p>
+    <p><span>Design tokens</span> are the fundamental building blocks of all UI elements, they point to styles and values like:</p>
+</div>
+
+
+<div class="features-container">
+    <!-- Grid System -->
+    <div class="feature">
+    <div class="feature-text">
+        <div class="feature-head">
+            <div class="feature-icon-container">
+                <div class="feature-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M6.33333 0.5H0.5V6.33333H6.33333V0.5Z" stroke="#EBF4FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M15.5 0.5H9.66667V6.33333H15.5V0.5Z" stroke="#EBF4FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M15.5 9.66667H9.66667V15.5H15.5V9.66667Z" stroke="#EBF4FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6.33333 9.66667H0.5V15.5H6.33333V9.66667Z" stroke="#EBF4FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                </div>
+
+                
+            </div>
+            <h4>Grid System</h4>
+            
+        </div>
+        <span>I went with a 4-point grid system, 
+                which was the secret sauce for design harmony, 
+                easily aligning elements on the canvas.</span>
+
+        </div>
+
+        <div class="feature-image">
+            <img src="assets/grid_system 1.jpg" alt="Grid System"/>
+        </div>
+    </div>
+
+<!--Color Styles-->
+<div class="feature">
+    <div class="feature-text">
+        <div class="feature-head">
+            <div class="feature-icon-container">
+                <div class="feature-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M7.99992 1.79297L11.7733 5.5663C12.5195 6.31204 13.0278 7.26235 13.2339 8.29701C13.4399 9.33167 13.3345 10.4042 12.9309 11.3789C12.5274 12.3537 11.8438 13.1868 10.9667 13.773C10.0895 14.3592 9.05824 14.6721 8.00326 14.6721C6.94828 14.6721 5.91699 14.3592 5.03985 13.773C4.16272 13.1868 3.47913 12.3537 3.07557 11.3789C2.672 10.4042 2.56659 9.33167 2.77266 8.29701C2.97873 7.26235 3.48703 6.31204 4.23326 5.5663L7.99992 1.79297Z" stroke="#EBF4FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                </div>
+
+                
+            </div>
+            <h4>Color Styles</h4>
+            
+        </div>
+        <span>Our devs asked me to have 2 color styles: <span style="font-weight: 600;">Reference</span>, 
+            the source of truth colors & <span style="font-weight: 600;">System</span>, 
+            the ones related to system settings, like “light” & “Dark” themes.</span>
+        <span>Color Styles should also include state-layers and surface colors, 
+            which act as a key factor in defining component interaction & animation.</span>
+
+        </div>
+
+        <div class="feature-image">
+            <img src="assets/color_styles 1.jpg" alt="Grid System"/>
+        </div>
+    </div>
+
+
+
+
+<!--Text Styles-->
+
+
+<div class="feature">
+    <div class="feature-text">
+        <div class="feature-head">
+            <div class="feature-icon-container">
+                <div class="feature-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M2.66675 4.66699V2.66699H13.3334V4.66699M6.00008 13.3337H10.0001M8.00008 2.66699V13.3337" stroke="#EBF4FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                </div>
+
+                
+            </div>
+            <h4>Text Styles</h4>
+            
+        </div>
+        <span>The default typeface for RockSpoon is<span style="font-weight: 600;">Roboto</span>. <br>I created our text styles while carefully choosing sizes, heights, and weights based on the business needs.</span>
+
+        </div>
+
+        <div class="feature-image">
+            <img src="assets/text_styles.jpg" alt="Grid System"/>
+        </div>
+    </div>
+
+
+
+
+
+</div>
+    
+<div class="features-note">
+    <p>Once Tokens are defined, both designers and engineers can 
+        be confident that the same values will be used in their mockups and implementation!</p>
+    <div class="token-app">
+        <img src="assets/token_application 1.svg" alt="token application"/>
+    </div>
+</div>
+</div>
+
+</article>
+
+<div class="note">
+    <p>Developing RockSpoon Design system presented 2 key challenges: <span style="font-weight: 600;">scalability & adaptability</span>. 
+        With a diverse range of devices, each with distinct characteristics, we needed to ensure 
+        that every component remained responsive across small screens (mobile), medium-sized screens 
+        (tablet), and in both portrait and landscape orientations, 
+        while also accommodating light and dark modes. </p>
+</div>
+
+
+
+
+<article id="atoms">
+    <h4 class="title">ATOMS</h4>
+
+    <h2 class="headline">Buttons</h2>
+
+    <div class="buttons">
+        <div class="atoms1">
+        <div class="anatomy">
+            <div class="div1">
+            <h4>Anatomy</h4>
+           
+                
+            <div class="anatomy-list">
+    
+                 <div class="anatomy-item">
+                     <div class="dot">
+                         <p>1</p>
+                     </div>
+                     <div class="value-container">
+                     <div class="anatomy-name">
+                         <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                           <p>rs.comp.light.buttons.filled</p>
+                     </div>
+                     <div class="anatomy-attribute">
+                         <div class="attribute-name">
+                             <span>Border radius :</span>
+                             <div class="attribute-value">
+                                 <span>4</span>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+            
+            <div class="anatomy-item">
+                <div class="dot">
+                    <p>2</p>
+                </div>
+                <div class="value-container">
+                <div class="anatomy-name">
+                    <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                      <p>rs.ref.icon.circle-container</p>
+                </div>
+                <div class="anatomy-attribute">
+                    <div class="attribute-name">
+                        <span>Depends on :</span>
+                        <div class="attribute-value">
+                            <span>rs.ref.icon.circle-container</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div> 
+    
+    
+       <div class="anatomy-item">
+        <div class="dot">
+            <p>3</p>
+        </div>
+        <div class="value-container">
+        <div class="anatomy-name">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M10 2H4V5.5M10 2H16V5.5M10 2V17M10 17H13.5M10 17H6.5" stroke="#9063CD"/>
+                </svg>         
+                
+                <p>rs/ref/text/heading03/bold16</p>
+        </div>
+        <div class="anatomy-attribute">
+            <div class="attribute-name">
+                <span>Text color :</span>
+                <div class="attribute-value">
+                    <div class="bold16">
+                        <p>rs/sys/light/on-primary</p>
+                        <p>#FFFFFF</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+        
+           
+        
+    
+    </div> 
+    </div>
+    </div>
+    
+         </div>
+         
+         <img src="assets/Button 1.svg" class="button-pic" alt="Button Explanation"/>
+    
+      
+
+
+    </div>
+
+
+    <div class="lns">
+
+        <div class="lns-text">
+        <h4>Layout & Spacing</h4>
+
+        <div class="lns-attributes">
+
+            <div class="lns-attribute">
+                <span>Direction:</span>
+                <div class="lns-value">
+                    <span>Horizontal</span>
+                </div>
+            </div>
+
+            <div class="lns-attribute">
+                <span>Alignment:</span>
+                <div class="lns-value">
+                    <span>Middle Center</span>
+                </div>
+            </div>
+
+            <div class="lns-attribute">
+                <span>Item Spacing:</span>
+                <div class="lns-value">
+                    <span>8</span>
+                </div>
+            </div>
+
+            <div class="lns-attribute">
+                <span>Padding top:</span>
+                <div class="lns-value">
+                    <span>8</span>
+                </div>
+            </div>
+
+            <div class="lns-attribute">
+                <span>Padding bottom:</span>
+                <div class="lns-value">
+                    <span>8</span>
+                </div>
+            </div>
+
+            <div class="lns-attribute">
+                <span>Padding left:</span>
+                <div class="lns-value">
+                    <span>12</span>
+                </div>
+            </div>
+
+            <div class="lns-attribute">
+                <span>Padding right:</span>
+                <div class="lns-value">
+                    <span>12</span>
+                </div>
+            </div>
+
+            </div>
+        </div>
+
+        <img src="assets/Group 2.svg" alt="Layout & Spacing" class="lns-pic"/>
+    </div>
+
+    <div class="state-layers">
+        <p><span style="font-weight: 600;">State layers</span> are the frames that can hold a specific color,  
+            outline, or even opacity, to present a specific interaction with  the main component, i.e <span style="font-weight: 600;">buttons</span>.</p>
+            <p>These kind of layers can be super helpful and, if integrated correctly, can help you save a lot of time and rework.</p>
+            <p>For example, if you were tasked to change the main brand color, instead of going through each comp and state layer, you can simply change the color values that you have already defined and simply watch the magic happens! </p>
+    
+        </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="atoms2">
+
+
+    <div class="anatomy-text">
+        <p>Buttons were designed to be either high or medium emphasis for important or common actions.</p>
+         <p> The <span style="font-weight: 600;">primary buttons</span> are high emphasis, and the main actions are to search, create, or compose.</p>
+        <p>   The <span style="font-weight: 600;">secondary</span> buttons are medium emphasis, and the main actions are to not distract users from other onscreen elements.</p>
+    </div>
+
+    <div class="properties">
+        <h4> <!-- Properties Title -->
+            Properties
+        </h4>
+        <div class="size">
+        <h5>Size</h5>
+            <div class="size-value">
+                <!--Small Button-->
+            <h6>Small</h6>
+                <div class="button-attributes-container">
+                    <div class="size-value-attributes">
+                        <p>Height: <span>40</span></p>
+                        <p>Text Style: <span>rs/ref/text/heading03/bold16</span></p>
+                        <p>Leading Icon Size: <span>24x24</span></p>
+                    </div>
+                    <div class="size-button-pic-container">
+                        <img src="assets/small.svg" alt="Small Sized Button" class="size-button-pic"/>
+                    </div>
+                </div>
+
+            <!--Medium Button-->
+            <h6>Medium</h6>
+                <div class="button-attributes-container">
+                    <div class="size-value-attributes">
+                        <p>Height: <span>48</span></p>
+                        <p>Text Style: <span>rs/ref/text/heading02/bold18</span></p>
+                        <p>Leading Icon Size: <span>28x28</span></p>
+                    </div>
+                    <div class="size-button-pic-container">
+                        <img src="assets/medium.svg" alt="Small Sized Button" class="size-button-pic"/>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div class="state">
+            <h5>State</h5>
+
+            <div class="state-value">
+                <!--Hovered Small Button-->
+                    <h6>Hovered</h6>
+                    <div class="state-layer-container-value">
+                        <!--DIv1-->
+                        <div class="state-value-attribute">
+                            <div class="state-value-attribute-title">
+                                <img src="assets/Type icon.svg" alt="Type Icon Title State Layer"/>
+                                <p>state-layer</p>
+                            </div>
+                            <div class="state-attribute">
+                                <p class="state-text1">state-layers/light/on-primary/opacity-0.8</p>
+                                <p class="state-text2">#FFFFFF, 8%</p>
+                            </div>
+                        </div>
+
+                        <!--Div2-->
+                        <div class="smallHovered">
+                            
+                            <div class="smallHoveredContent">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="white"/>
+                                </svg> TEXT
+                            </div>
+                                                 
+                         </div>
+                    </div>
+            </div>
+
+            <div class="state-value">
+                <!--Pressed Small Button-->
+                    <h6>Pressed</h6>
+                    <div class="state-layer-container-value">
+                        <!--DIv1-->
+                        <div class="state-value-attribute">
+                            <div class="state-value-attribute-title">
+                                <img src="assets/Type icon.svg" alt="Type Icon Title State Layer"/>
+                                <p>state-layer</p>
+                            </div>
+                            <div class="state-attribute">
+                                <p class="state-text1">state-layers/light/on-primary/opacity-0.16</p>
+                                <p class="state-text2">#FFFFFF, 16%</p>
+                            </div>
+                        </div>
+
+                        <!--Div2-->
+                        <div class="smallPressed">
+                            <div class="smallPressedContent">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="white"/>
+                                </svg> TEXT
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+
+            <div class="state-value">
+                <!--Disabled Small Button-->
+                    <h6>Disabled</h6>
+                    <div class="state-layer-container-value">
+                        <!--DIv1-->
+                        <div class="value-disabled">
+                        <div class="state-value-attribute">
+                            <div class="state-value-attribute-title">
+                                <img src="assets/Type icon.svg" alt="Type Icon Title State Layer"/>
+                                <p>state-layer</p>
+                            </div>
+                            <div class="state-attribute">
+                                <p class="state-text1">state-layers/light/on-surface/opacity-0.16</p>
+                                <p class="state-text2">#333333, 16%</p>
+                            </div>
+                        </div>
+                        
+                        <div class="state-value-attribute">
+                            <div class="state-value-attribute-title text-color">
+                                <img src="assets/Type icon2.svg" alt="Type Icon Title State Layer"/>
+                                <p>text-color</p>
+                            </div>
+                            <div class="state-attribute">
+                                <p class="state-text1">state-layers/light/on-surface</p>
+                                <p class="state-text2">#333333, 38%</p>
+                            </div>
+                        </div>
+                        </div>
+                        <!--Div2-->
+                        <div class="smallDisabled">
+                            <div class="smallDisabledContent">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <g opacity="0.38">
+                                      <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" fill="#333333"/>
+                                    </g>
+                                  </svg> TEXT
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    </div>
+</div>
+
+<div class="chips">
+    <h2 class="headline">Chips</h2>
+    <p>Another example of how state layers can define the states of a component</p>
+    <div class="chips-label">
+
+        <div class="chips-state">
+            <img src="assets/Clip path group.svg" alt="enabled state of the label" class="chips-label-picture chips-border-black"/>
+            <div class="chips-title">
+                <img src="assets/Clip path group (1).svg" alt="number 1"/>
+                <span>Enabled</span>
+            </div>
+        </div>
+
+
+        <div class="chips-state">
+            <img src="assets/label-2.svg" alt="Hovered state of the label" class="chips-label-picture chips-border-black"/>
+            <div class="chips-title">
+                <img src="assets/Clip path group (2).svg" alt="number 1"/>
+                <span>Hovered</span>
+            </div>
+        </div>
+
+
+        <div class="chips-state">
+            <img src="assets/label-3.svg" alt="Focused state of the label" class="chips-label-picture chips-border-red"/>
+            <div class="chips-title">
+                <img src="assets/Clip path group (3).svg" alt="number 1"/>
+                <span>Focused</span>
+            </div>
+        </div>
+
+
+        <div class="chips-state">
+            <img src="assets/label-4.svg" alt="Pressed state of the label" class="chips-label-picture chips-border-thickred"/>
+            <div class="chips-title">
+                <img src="assets/Clip path group (4).svg" alt="number 1"/>
+                <span>Pressed</span>
+            </div>
+        </div>
+
+
+        <div class="chips-state">
+            <img src="assets/label-5.svg" alt="Disabled state of the label" class="chips-label-picture chips-border-black"/>
+            <div class="chips-title">
+                <img src="assets/Clip path group (5).svg" alt="number 1"/>
+                <span>Disabled</span>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+<div class="otheratoms">
+    <h2 class="headline">Other Atoms</h2>
+    <div class="alerts">
+        <div class="alerts1">
+            <h5>Alerts</h5>
+            <p>An alert component is a user-friendly 
+                element designed to convey important 
+                messages like warnings, errors,
+                 successes, and information. However, 
+                 the main <span style="font-weight: 700;">challenge</span> with such 
+                 instances is to make them adaptable 
+                 to any text length and number of rows.</p>
+        </div>
+        <div class="alerts2">
+            
+        </div>
+
+
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+
+
+
+
+
+
+            </section>
+
+
+        
+
+
+        
+
+    </main>
+    <footer id="footer">
+        <h2>Let’s Build Something Together!</h2>
+        <div class="support">
+            <div class="contact">
+                <h6>Contact Me</h6>
+                <a href="mailto:josephdibeh@gmail.com">josephdibeh@gmail.com</a>
+            </div>
+            <div class="socials">
+                <h6>Let's Connect</h6>
+                <div class="socials-img">
+                    <a href="https://www.linkedin.com/in/joseph-dibeh/" target="_blank"><img src="assets/Linkedin.svg"
+                            alt="socials LinkedIn" /></a>
+                    <a href="https://www.instagram.com/josephdibeh?igsh=MXhvcTNsOHp0MmtvaQ%3D%3D&utm_source=qr"
+                        target="_blank"><img src="assets/Instagram.svg" alt="socials Instagram"
+                            id="instagram-ico" /></a>
+                </div>
+            </div>
+            <p class="copyright">@2024 Joseph Dibeh</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
