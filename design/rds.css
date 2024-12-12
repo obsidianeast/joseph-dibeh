@@ -1080,12 +1080,18 @@ flex-shrink: 0;
 }
 .alerts{
     margin-top: 1.5rem;
+    display: flex;
 }
 .alerts1 h5{
     margin-bottom: 1rem;
 }
 .alerts1 p{
     width: 28.375rem;
+}
+
+.alerts img{
+    width: 690px;
+    height: 256px;
 }
 
 /*Properties Design Ends Here*/
