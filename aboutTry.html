@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- <link rel="stylesheet" href="globals.css" /> -->
+    <!-- <link rel="stylesheet" href="styleguide.css" /> -->
+    <link rel="stylesheet" href="./design/aboutTry.css" />
+    <!-- added -->
+    <link rel="icon" href="assets/Vector.png">
+    <script type="text/javascript" src="interaction/main.js"></script>
+    <link rel="stylesheet" href="design/header.css">
+
+    <title>About</title>
+   
+  </head>
+  <body>
+    <div class="about">
+      <div class="div">
+        <div class="frame">
+          <div class="frame-2">
+            <div class="frame-3">
+              <div class="text-wrapper">Hello again</div>
+              <p class="p">
+                I’m a system &amp; product designer based in Lebanon. I believe in the power of continuous learning and
+                staying updated with industry trends to deliver innovative solutions.<br /><br />My journey in the
+                design world has been a dynamic exploration of various industries and design disciplines, from working
+                with startups to collaborating with agencies, each experience has enriched my skill set and shaped my
+                approach to design.
+              </p>
+            </div>
+            <div class="frame-3">
+              <div class="text-wrapper">Beyond Pixels</div>
+              <p class="p">
+                I&#39;m a voice-over artist, a nature lover and a coffee enthusiast. When not immersed in design
+                projects, you can find me scrolling bars at the Gym.
+              </p>
+            </div>
+          </div>
+          <div class="frame-4">
+            <div class="text-wrapper">My Design Philosophy</div>
+            <p class="p">
+              Revolves around the idea that great design goes beyond aesthetics! It should solve problems, evoke
+              emotions, and create meaningful connections.<br /><br />Whether it&#39;s crafting a practical design
+              system, designing intuitive user interfaces, or building cross-platform tokens, I thrive on turning
+              concepts into visually engaging realities.
+            </p>
+          </div>
+        </div>
+        <div class="frame-5">
+          <div class="text-wrapper-2">Let’s Build Something Together!</div>
+          <div class="frame-6">
+            <div class="frame-7">
+              <div class="supporting-text">Contact Me</div>
+              <a
+                href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJftMZHhKhhmWBdgtBvDgXQCfMlBlNmksFmnJvrhcGHXLRhvwdZqmjCDmggXgwbkBvfzbFL"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><div class="supporting-text-2">josephdibeh@gmail.com</div></a
+              >
+            </div>
+            <div class="frame-8">
+              <div class="supporting-text">Let’s Connect</div>
+              <div class="frame-9">
+                <a href="https://www.linkedin.com/in/joseph-dibeh/" target="_blank" rel="noopener noreferrer"
+                  ><img class="social-icon" src="img/image.svg"
+                /></a>
+                <a
+                  href="https://www.instagram.com/josephdibeh?igsh=MXhvcTNsOHp0MmtvaQ%3D%3D&utm_source=qr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img class="social-icon" src="img/social-icon.svg"
+                /></a>
+              </div>
+            </div>
+            <div class="supporting-text-3">@2024 Joseph Dibeh</div>
+          </div>
+        </div>
+        <img class="about-heroimage" src="assets/about_heroimage.png" />
+
+        <!-- changed -->
+        <!-- <div class="arrow-left-wrapper"><img class="img" src="ass/arrow-left.svg" /></div> -->
+
+        <header>
+          <div>
+        <div class="arrow-left-wrapper" onclick="document.location.href='index.html'">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <path d="M31.6666 19.9997H8.33325M8.33325 19.9997L19.9999 31.6663M8.33325 19.9997L19.9999 8.33301"
+                  stroke="#3E3C3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+      </div>
+        
+
+      <!-- changed -->
+        <!-- <div class="icon-button">
+          <div class="state-layer"><img class="img" src="img/menu.svg" /></div>
+        </div> -->
+
+        <div class="icon-button">
+          <div class="state-layer" id="menu-background" onclick="openMenu()">
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  id="normal">
+                  <path d="M5 20H35M5 10H35M5 30H35" stroke="#3E3C3E" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+              </svg>
+
+              <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  id="clicked">
+                  <path d="M30 10L10 30M10 10L30 30" stroke="#3E3C3E" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+              </svg>
+
+
+
+          </div>
+
+
+
+          <div id="menu" class="menu">
+              <div class="menu-container">
+                  <div class="menu-item" onclick="document.location.href='index.html'">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                          fill="none">
+                          <path
+                              d="M7.5 18.3334V10.0001H12.5V18.3334M2.5 7.50008L10 1.66675L17.5 7.50008V16.6667C17.5 17.1088 17.3244 17.5327 17.0118 17.8453C16.6993 18.1578 16.2754 18.3334 15.8333 18.3334H4.16667C3.72464 18.3334 3.30072 18.1578 2.98816 17.8453C2.67559 17.5327 2.5 17.1088 2.5 16.6667V7.50008Z"
+                              stroke="#3E3C3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                      <span>Home</span>
+                  </div>
+                  <div class="menu-item" onclick="document.location.href='about.html'">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                          fill="none">
+                          <path
+                              d="M16.6667 17.5V15.8333C16.6667 14.9493 16.3155 14.1014 15.6904 13.4763C15.0653 12.8512 14.2174 12.5 13.3334 12.5H6.66671C5.78265 12.5 4.93481 12.8512 4.30968 13.4763C3.68456 14.1014 3.33337 14.9493 3.33337 15.8333V17.5M13.3334 5.83333C13.3334 7.67428 11.841 9.16667 10 9.16667C8.15909 9.16667 6.66671 7.67428 6.66671 5.83333C6.66671 3.99238 8.15909 2.5 10 2.5C11.841 2.5 13.3334 3.99238 13.3334 5.83333Z"
+                              stroke="#3E3C3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                      <span>About</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+        </header>
+
+      </div>
+      
+    </div>
+  </body>
+</html>

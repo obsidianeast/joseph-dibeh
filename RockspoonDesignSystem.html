@@ -732,6 +732,8 @@
 <div class="otheratoms">
     <h2 class="headline">Other Atoms</h2>
     <div>
+
+        <!-- alerts -->
     <div class="alerts">
         <div class="alerts1">
             <h5>Alerts</h5>
@@ -747,6 +749,8 @@
 
 
     </div>
+
+    <!-- search & text fields -->
     <div class="alerts">
         <div class="alerts1">
             <h5>Search & Text Fields</h5>
@@ -756,24 +760,580 @@
                   the search component while making sure that it
                    does provide all the necessary properties/states
                     that might be needed.
+              </p>      
         </div>
-        <img src="assets/search_text_field 1.png" alt="Design Approach for Search & Text Fields in other atoms">
+        <img src="assets/search_text_field.png" alt="Design Approach for Search & Text Fields in other atoms">
+
+
+    </div>
+
+    <!-- checkboxes and radio buttons -->
+    <div class="alerts">
+        <div class="alerts1">
+            <h5>Checkboxes & Radio Buttons</h5>
+            <p>We all know what are these for: 
+                single choices from a list? go with 
+                radio buttons, otherwise, checkboxes
+                 are the alternative. </p>
+            <p> However, <span style="font-weight: 700;">the hard part</span>, 
+                in building such components,
+                 is to define all the states,
+                  and to maintain the same ratio while resizing.</p>     
+
+
+        </div>
+        <img src="assets/checkbox-radioButton.png" alt="Design Approach for Checkboxes & Radio Buttons in other atoms">
 
 
     </div>
 </div>
 </div>
+<!-- end of atoms -->
+</article>
 
 
+<!-- note  -->
+<div class="note">
+    <p>
+        There's a lot of atoms to explore, 
+        including <span style="font-weight: 600;">Counters, FABs, Items, Loaders,
+         Toggles, Tabs</span> and so much more! Just like
+          atoms in the natural world, each interface atom
+           has unique properties, like hero image dimensions
+            or primary heading font size. These properties guide
+             their usage in the broader UI system. And always remember,
+              interface atoms truly shine when put into action.
+              
+         </p>
+</div>
+
+<!-- article molecules -->
+<article id="molecules" >
+    <h4 class="title">MOLECULES</h4>
+    <h2 class="headline">Tabs</h2>
+    <div class="tabs">
+            <div class="tab1">
+                <div class="tab-text tab-text-bottom">
+                    <p>In interfaces, <span style="font-weight: 600;">molecules</span> are relatively
+                             simple groups of UI elements functioning 
+                             together as a unit. When combined, these 
+                             abstract atoms suddenly have purpose. 
+                             A container, an icon, and a badge can 
+                             join together to create a <span style="font-weight: 600;">Tab</span> form molecule.
+
+                    </p>
+                </div>
+                    
+                <div class="properties">
+                    <h4> <!-- Properties Title -->
+                         Properties
+                    </h4>
+                    <div class="size">
+                        <h5>Active</h5>
+                        <div class="size-value">
+                                    <!--true-->
+                            <h6>True</h6>
+                            <div class="button-attributes-container">
+                                <div class="size-value-attributes">
+                                    <p><span style="font-weight: 600;">Text Style:</span> rs/ref/text/paragraph01/bold14</p>
+                                    <p><span style="font-weight: 600;">Show Indicator:</span> True</p>        
+                                </div>
+                                <div class="size-button-pic-container">
+                                    <img src="assets/molecules-properties-true.png" alt="True Design Approach for tab in Tabs" class="tab-properties-img">
+                                </div>
+                            </div>
+                
+                            <!--false-->
+                            <h6>False</h6>
+                            <div class="button-attributes-container">
+                                <div class="size-value-attributes">
+                                    <p><span style="font-weight: 600;">Text Style:</span> rs/ref/text/paragraph01/regular14</p>
+                                    <p><span style="font-weight: 600;">Show Indicator:</span> False</p>
+                                </div>
+                                <div class="size-button-pic-container">
+                                    <img src="assets/molecules-properties-false.png" alt="False Design Approach for tab in Tabs" class="tab-properties-img">
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+            <div class="tab2">
+                <div class="anatomy-tab">
+                    <div class="div1">
+                    <h4>Anatomy</h4>
+                    <div class="anatomy-list">
+                        <div class="anatomy-item">
+                            <div class="dot">
+                                 <p>1</p>
+                            </div>
+                            <div class="value-container">
+                                <div class="anatomy-name">
+                                    <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                                    <p>rs.comp.light.small.footer.tab</p>
+                                </div>
+                                <div class="anatomy-attribute">
+                                    <div class="attribute-name">
+                                        <span>Height :</span>
+                                        <div class="attribute-value">
+                                            <span>64</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="anatomy-item">
+                            <div class="dot">
+                                <p>2</p>
+                            </div>
+                            <div class="value-container">
+                            <div class="anatomy-name">
+                                <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                                  <p>rs.ref.icon.circle-container</p>
+                            </div>
+                            <div class="anatomy-attribute">
+                                <div class="attribute-name">
+                                    <span>Depends on :</span>
+                                    <div class="attribute-value">
+                                        <span>rs.ref.icon.circle-container</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div> 
+                
+                
+                   <div class="anatomy-item">
+                    <div class="dot">
+                        <p>3</p>
+                    </div>
+                    <div class="value-container">
+                    <div class="anatomy-name">
+                        <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>        
+                            <p>rs.comp.light.badges</p>
+                    </div>
+                    <div class="anatomy-attribute">
+                        <div class="attribute-name">
+                            <span>Depends on:</span>
+                            <div class="attribute-value">
+                                    <span>rs.comp.light.badges</span>    
+                                
+                        </div>
+                    </div>
+                    <div class="attribute-name">
+                        <span>Configuration:</span>
+                        <div class="attribute-value">
+                                <span>icon</span>
+                    </div>
+                </div>
+                <div class="attribute-name">
+                    <span>Level:</span>
+                    <div class="attribute-value">
+                            <span>primary</span>
+                </div>
+            </div>
+                </div>
+                
+                    
+                       
+                    
+                
+                </div> 
+                </div>
+                </div>
+                
+                     </div>
+                     
+                     <img src="assets/anatomy-tab.png" class="button-pic" alt=""/>
+                
+                  
+            
+            
+                </div>
+                    <div class="tab-text tab-text-top">
+                        <p> It is so important to always make
+                             sure that any component should be scalable and customizable. 
+                             In this case, the user (designer)
+                              can <span style="font-weight: 600;">resize</span> the tab,
+                              <span style="font-weight: 600;">change</span> the icon, and 
+                              <span style="font-weight: 600;">input</span> any 
+                              text of his choice all without breaking the component
+                               layout.</p>
+                               
+                    </div>
+                </div>
+
+            </div>
+
+        <!-- action lists -->
+        <div class="action-list">
+            <h2 class="headline">Action Lists</h2>
+            <div class="grid-details">
+                <div class="anatomy-action-list">
+                    <div class="div1">
+                        <h4>Anatomy</h4>
+                        <div class="anatomy-list">
+                            <div class="anatomy-item">
+                                <div class="dot">
+                                     <p>1</p>
+                                </div>
+                                <div class="value-container">
+                                    <div class="anatomy-name">
+                                        <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                                        <p>rs.comp.light.lists.action</p>
+                                    </div>
+                                    <div class="anatomy-attribute">
+                                        <div class="attribute-name">
+                                            <span>Height :</span>
+                                            <div class="attribute-value">
+                                                <span>Hug</span>
+                                            </div>
+                                        </div>
+                                        <div class="attribute-name">
+                                            <span>Width :</span>
+                                            <div class="attribute-value">
+                                                <span>Fixed</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="anatomy-item">
+                                <div class="dot">
+                                    <p>2</p>
+                                </div>
+                                <div class="value-container">
+                                <div class="anatomy-name">
+                                    <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                                      <p>rs.comp.light.buttons.text-wide</p>
+                                </div>
+                                <div class="anatomy-attribute">
+                                    <div class="attribute-name">
+                                        <span>Width:</span>
+                                        <div class="attribute-value">
+                                            <span>Fill</span>
+                                        </div>
+                                    </div>
+                                    <div class="attribute-name">
+                                        <span>State:</span>
+                                        <div class="attribute-value">
+                                            <span>Enabled</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                       </div> 
+                    
+                    
+                       <div class="anatomy-item">
+                        <div class="dot">
+                            <p>3</p>
+                        </div>
+                        <div class="value-container">
+                        <div class="anatomy-name">
+                            <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>        
+                                <p>rs.comp.light.divider.thin</p>
+                        </div>
+                        <div class="anatomy-attribute">
+                            <div class="attribute-name">
+                                <span>Configuration:</span>
+                                <div class="attribute-value">
+                                        <span>Gray</span>    
+                                    
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    </div> 
+                    </div>
+                    </div>
+                         </div>
+                         
+                         <img src="assets/action-list-anatomy.png" class="button-pic" alt=""/>
+                    
+        
+        
+            </div>  <!-- end of anatomy-->
+
+            <div class="action-list-text-container">
+                <div>
+                <p>Such kind of components always rely on the container. 
+                    I made them fully customizable so the designers can:</p>
+                    <br/>
+                 <p>1. Resize the width freely<br/>
+                    2. Add or remove actions<br/>
+                    3. Replace the text button by any other suitable component </p>
+                 </div>
+            </div>
+            </div>
+        </div>            
+    
+
+</article>
+
+<div class="note">
+    <p> Creating simple UI molecules makes testing easier,
+         encourages reusability, and promotes consistency
+          throughout the interface. Now we have simple, functional,
+           reusable components that we can put into a broader context: 
+           <span style="font-weight: 600;">Organisms</span> ! 
+    </p>
+</div>
+
+<article id="organisms">
+    <h4 class="title">ORGANISMS</h4>
+    <h2 class="headline">Date Picker</h2>
+    <div class="text long-p">
+        <p>The Date Picker is one of the most 
+            complicated components, because it
+             has to be structured in way that fits 
+             every need (showing  current date, providing
+              the ability to select a year, a date range,
+               specific or a range of time).</p>
+               <br/>
+               <p>
+                Such type of instances require 
+                some native & dedicated components
+                 called “building blocks” such as the 
+                 <span style="font-weight: 600;">calendar cell, calendar header,  and time stamps.</span>
+               </p>
+    </div>
+
+    <!-- img + list -->
+    <div>
+        <img src="assets/date-picker.png" alt="Design Approach for Date Picker" class="date-picker-img"/>
+ 
+    </div>
+
+    <div class="date-picker-list">
+
+        <div>
+            <div class="anatomy-item">
+                <div class="dot">
+                    <p>1</p>
+                </div>
+                <div class="value-container">
+                    <div class="anatomy-name">
+                        <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                        <p>Primary Icon Button (State: Enabled)</p>
+                    </div>
+            
+                </div>
+            </div>
+            <div class="anatomy-item">
+                <div class="dot">
+                    <p>2</p>
+                </div>
+                <div class="value-container">
+                    <div class="anatomy-name">
+                        <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                        <p>Calendar Header</p>
+                    </div>
+            
+                </div>
+            </div>
+            <div class="anatomy-item">
+                <div class="dot">
+                    <p>3</p>
+                </div>
+                <div class="value-container">
+                    <div class="anatomy-name">
+                        <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                        <p>Calendar Cell (Configuration: Default, State: Enabled)</p>
+                    </div>
+            
+                </div>
+            </div>
+            <div class="anatomy-item">
+                <div class="dot">
+                    <p>4</p>
+                </div>
+                <div class="value-container">
+                    <div class="anatomy-name">
+                        <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                        <p>Calendar Cell (Configuration: Today, State: Pressed)</p>
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="anatomy-item">
+                <div class="dot">
+                    <p>5</p>
+                </div>
+                <div class="value-container">
+                    <div class="anatomy-name">
+                        <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                        <p>Date Stamp (State: Enabled, Trailing Icon: False)</p>
+                    </div>
+            
+                </div>
+            </div>
+            <div class="anatomy-item">
+                <div class="dot">
+                    <p>6</p>
+                </div>
+                <div class="value-container">
+                    <div class="anatomy-name">
+                        <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                        <p>Text Button (Configuration: Primary, State: Enabled)</p>
+                    </div>
+            
+                </div>
+            </div>
+            <div class="anatomy-item">
+                <div class="dot">
+                    <p>7</p>
+                </div>
+                <div class="value-container">
+                    <div class="anatomy-name">
+                        <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                        <p>Text Button (Configuration: Primary, State: Pressed)</p>
+                    </div>
+            
+                </div>
+            </div>
+            <div class="anatomy-item">
+                <div class="dot">
+                    <p>8</p>
+                </div>
+                <div class="value-container">
+                    <div class="anatomy-name">
+                        <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                        <p>Date Picker (Configuration: Month-year)</p>
+                    </div>
+            
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 
+    <div class="keyboard">
+        <h2 class="headline">Keyboard</h2>
+        <div class="text long-p">
+            <p> It is common that apps use the default device’s keyboard,
+                 however, I was tasked to create a more reliable and brand-able 
+                 one for RockSpoon. This was a hectic task, because Google’ Material 
+                 Design System doesn’t provide any related building block, so I had to
+                  build it from scratch.
+                      </p>
+        </div>
 
+        <div class="grid-details">
+            <div class="keyboard-part1">
+                <img src="assets/keyboard.png" alt="Design Approach for a Keyboard" class="keyboard-img"/>
+            </div>
+            <div class="keyboard-part2">
 
+                <div class="anatomy-item">
+                    <div class="dot">
+                        <p>1</p>
+                    </div>
+                    <div class="value-container">
+                        <div class="anatomy-name">
+                            <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                            <p style="font-weight: 600;">small.keyboards.portrait-key</p>
+                        </div>
+                        <div class="anatomy-attribute">
+                            <div class="attribute-name">
+                                <span>Border radius :</span>
+                                <div class="attribute-value">
+                                    <span>4</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="anatomy-item">
+                    <div class="dot">
+                        <p>2</p>
+                    </div>
+                    <div class="value-container">
+                        <div class="anatomy-name">
+                            <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                            <p style="font-weight: 600;">small.keyboards.portrait-shift-key</p>
+                        </div>
+                        <div class="anatomy-attribute">
+                            <div class="attribute-name">
+                                <span>Border radius :</span>
+                                <div class="attribute-value">
+                                    <span>4</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="anatomy-item">
+                    <div class="dot">
+                        <p>3</p>
+                    </div>
+                    <div class="value-container">
+                        <div class="anatomy-name">
+                            <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                            <p style="font-weight: 600;">small.keyboards.portrait-numbers-key</p>
+                        </div>
+                        <div class="anatomy-attribute">
+                            <div class="attribute-name">
+                                <span>Border radius :</span>
+                                <div class="attribute-value">
+                                    <span>4</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="anatomy-item">
+                    <div class="dot">
+                        <p>4</p>
+                    </div>
+                    <div class="value-container">
+                        <div class="anatomy-name">
+                            <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                            <p style="font-weight: 600;">comp.light.buttons.text</p>
+                        </div>
+                        <div class="anatomy-attribute">
+                            <div class="attribute-name">
+                                <span>Border radius :</span>
+                                <div class="attribute-value">
+                                    <span>4</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="anatomy-item">
+                    <div class="dot">
+                        <p>5</p>
+                    </div>
+                    <div class="value-container">
+                        <div class="anatomy-name">
+                            <img src="assets/anatomySVG.svg" alt="LosangeSymbol"/>
+                            <p style="font-weight: 600;">small.keyboards.portrait-enter-key</p>
+                        </div>
+                        <div class="anatomy-attribute">
+                            <div class="attribute-name">
+                                <span>Border radius :</span>
+                                <div class="attribute-value">
+                                    <span>4</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
 
+            </div>
+        </div>
 
-
-
-
+    </div>
 </article>
 
 
@@ -781,17 +1341,84 @@
 
 
 
+    </section>
 
-            </section>
+<div class="nutshell">
+     <h2>In a nutshell...</h2>
+     <p>A Design System is the heartbeat of
+         thoughtful product design, enabling 
+         Designers & Developers to construct scalable,
+          yet adaptable products. I’ve found out that
+           it <span style="font-weight: 600;">acts like a dependable product within a
+            company</span> because building it requires:</p>
+            <div class="anatomy-item">
+                <div class="dot">
+                    <p>1</p>
+                </div>
+                <div class="value-container">
+                         <p style="font-weight: 600;">Discovery</p>
+                </div>
+                <p>Understanding the already 
+                    established styles and guidelines while 
+                    conducting detailed researches about best practices.</p>
+            </div>
+            <div class="anatomy-item">
+                <div class="dot">
+                    <p>2</p>
+                </div>
+                <div class="value-container">
+                         <p style="font-weight: 600;">Discovery</p>
+                </div>
+                <p>Crafting tokens & components, while taking 
+                    into consideration reusability and scalability.</p>
+            </div>
+            <div class="anatomy-item">
+                <div class="dot">
+                    <p>3</p>
+                </div>
+                <div class="value-container">
+                         <p style="font-weight: 600;">Discovery</p>
+                </div>
+                <p>Every single crafted style/comp 
+                    should be aligned with the devs
+                     and tested by the designers while
+                      building their screens, this will
+                       provoke a cycle of component optimization,
+                        and variations addition, hence design system
+                         evolvement!</p>
+            </div>
+            <div class="anatomy-item">
+                <div class="dot">
+                    <p>4</p>
+                </div>
+                <div class="value-container">
+                         <p style="font-weight: 600;">Discovery</p>
+                </div>
+                <p>Continuous monitoring, updates,
+                     user feedback analysis, and iterative
+                      improvements to enhance the system’s
+                       features and user experience.</p>
+            </div>
+            <div class="anatomy-item">
+                <div class="dot">
+                    <p>5</p>
+                </div>
+                <div class="value-container">
+                         <p style="font-weight: 600;">Discovery</p>
+                </div>
+                <p>Ongoing support, bug fixes, and feature 
+                    enhancements to keep the system running smoothly.</p>
+            </div>
 
-
+    
+</div>
         
 
 
         
 
     </main>
-    <footer id="footer">
+    <footer id="footer" class="footer-margin">
         <h2>Let’s Build Something Together!</h2>
         <div class="support">
             <div class="contact">
