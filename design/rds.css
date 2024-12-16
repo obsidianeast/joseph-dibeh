@@ -63,7 +63,7 @@ h5{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 0px;
+    grid-column-gap: 4rem;
     grid-row-gap: 0px;
 }
 
@@ -1285,6 +1285,11 @@ flex-shrink: 0;
 .nutshell .dot p{
     color: white;
    
+}
+
+.key-margin{
+    margin-bottom: 3rem;
+    margin-top: 1rem;
 }
 
 /*Properties Design Ends Here*/

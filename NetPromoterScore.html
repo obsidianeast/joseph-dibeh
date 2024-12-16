@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/Vector.png">
+    <script type="text/javascript" src="interaction/main.js"></script>
+    <link rel="stylesheet" href="design/header.css">
+    <link rel="stylesheet" href="design/main.css">
+    <link rel="stylesheet" href="design/home.css">
+    <link rel="stylesheet" href="design/info-menu.css">
+    <link rel="stylesheet" href="design/card.css">
+    <link rel="stylesheet" href="design/footer.css">
+    <link rel="stylesheet" href="design/NetPromoterScore.css">
+
+
+    <title>Net Promoter Score</title>
+</head>
+
+<body>
+
+
+
+    <header>
+
+
+        <div class="header">
+            <div class="previous" onclick="document.location.href='index.html'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                    <path d="M31.6666 19.9997H8.33325M8.33325 19.9997L19.9999 31.6663M8.33325 19.9997L19.9999 8.33301"
+                        stroke="#3E3C3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+
+
+
+            <div class="relative-menu">
+                <div class="menu-button" id="menu-background" onclick="openMenu()">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        id="normal">
+                        <path d="M5 20H35M5 10H35M5 30H35" stroke="#3E3C3E" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        id="clicked">
+                        <path d="M30 10L10 30M10 10L30 30" stroke="#3E3C3E" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+
+
+
+                </div>
+
+
+
+                <div id="menu" class="menu">
+                    <div class="menu-container">
+                        <div class="menu-item" onclick="document.location.href='index.html'">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                fill="none">
+                                <path
+                                    d="M7.5 18.3334V10.0001H12.5V18.3334M2.5 7.50008L10 1.66675L17.5 7.50008V16.6667C17.5 17.1088 17.3244 17.5327 17.0118 17.8453C16.6993 18.1578 16.2754 18.3334 15.8333 18.3334H4.16667C3.72464 18.3334 3.30072 18.1578 2.98816 17.8453C2.67559 17.5327 2.5 17.1088 2.5 16.6667V7.50008Z"
+                                    stroke="#3E3C3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <span>Home</span>
+                        </div>
+                        <div class="menu-item" onclick="document.location.href='about.html'">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                fill="none">
+                                <path
+                                    d="M16.6667 17.5V15.8333C16.6667 14.9493 16.3155 14.1014 15.6904 13.4763C15.0653 12.8512 14.2174 12.5 13.3334 12.5H6.66671C5.78265 12.5 4.93481 12.8512 4.30968 13.4763C3.68456 14.1014 3.33337 14.9493 3.33337 15.8333V17.5M13.3334 5.83333C13.3334 7.67428 11.841 9.16667 10 9.16667C8.15909 9.16667 6.66671 7.67428 6.66671 5.83333C6.66671 3.99238 8.15909 2.5 10 2.5C11.841 2.5 13.3334 3.99238 13.3334 5.83333Z"
+                                    stroke="#3E3C3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <span>About</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="pic-hero"></div>
+        </section>
+
+
+        <section class="content">
+
+
+            <article id="introduction">
+
+                <h1 class="headline-intro">
+                    Net Promoter Score (NPS)
+                </h1>
+
+                <div class="tags">
+                    <p>SAAS</p>
+                    <p>B2B</p>
+                    <p>Metric Survey</p>
+                    <p>Web App</p>
+                </div>
+
+                <div class="grid-details">
+
+                    <div class="description">
+
+                        <p class="des-typography">The NPS is widely 
+                            used by businesses to measure how likely 
+                            customers are to recommend a company, 
+                            product, or service to others.</p>
+
+                        <p class="des-typography">Customers get asked
+                            a straightforward question: "How likely
+                             are you to recommend our product/service
+                              to a friend or colleague?" They respond
+                               on a scale of 0 to 10, where 0 means "not likely"
+                                and 10 means "extremely likely."</p>
+
+                        <p class="des-typography">Based on their responses,
+                             customers fall into three categories: 
+                             <span style="font-weight: 600;"> Promoters</span> (score 9-10),
+                             <span style="font-weight: 600;">Passives</span> (score 7-8), and 
+                             <span style="font-weight: 600;">Detractors</span> (score 0-6).</p>
+
+                        <p class="des-typography">These scores help us 
+                            understand how our customers perceive our 
+                            products and services and guides us in providing
+                             the best possible experience.</p>
+                    </div>
+                    <div class="role-section">
+                        <div class="part1">
+                            <div class="role-item">
+                                <h2>ROLE</h2>
+                                <p>Product Manager</p>
+                                <p>Product Designer</p>
+                            </div>
+
+                            <div class="role-item">
+                                <h2>RESPONSOBILITIES</h2>
+                                <p>UX/UI</p>
+                                <p>Prototyping</p>
+                                <p>Feature Organization</p>
+                                <p>Product Documentation</p>
+                               
+                            </div>
+
+                        </div>
+
+                        <div class="part2">
+                            <div class="role-item">
+                                <h2>PLATFORMS</h2>
+                                <p>Figma</p>
+                                <p>Chat GPT</p>
+                            </div>
+
+                            <div class="role-item">
+                                <h2>TIMEFRAME</h2>
+                                <p>Aug, 2023 till Sep, 2023 <br>
+                                    <span style="color: var(--sys-light-on-background-variant, #7D7F82);">
+                                        (2 months)</span>
+                                </p>
+                            </div>
+
+                        </div>
+</div>
+                    </div>
+               
+               
+                </article>
+            <article id="the-problem">
+                <h4 class="title">THE PROBLEM</h4>
+                <h2 class="headline">
+                    NPS Implementation Challenges in Food Tech                   
+                </h2>
+                <div class="text long-p">
+                    <p>Various industries, including aviation, 
+                        banking, hospitality, tourism, market
+                         research, restaurants, retail, spa,
+                          and healthcare, commonly use NPS 
+                          (Net Promoter Score). Adapting the
+                           NPS survey for RockSpoon, a <span style="font-weight: 600;"> food
+                            technology</span> company specializing 
+                            in <span style="font-weight: 600;">POS</span> and management solutions 
+                            for restaurants, posed a 
+                            <span style="font-weight: 600;">unique challenge</span>.</p>
+                </div>
+
+            </article>
+
+            <article id="approach">
+                <h4 class="title">APPROACH</h4>
+                <h2 class="headline">
+                    Exploring NPS Implementation and Competitive Insights                   
+                </h2>
+                <div class="text long-p">
+                    <p>I began by looking into the established 
+                        norms for implementing an NPS survey and 
+                        delving into our competitors' strategies.
+                         I wanted to understand what they were
+                          doing—whether they had an NPS system in place.
+                           After thorough research, here are my key findings:</p>
+                </div>
+                <!-- 
+               
+                <div class="long-p">
+                    <div class="grid-details">
+                        <span  class="span-paragraph" style="font-weight: 600;">Send NPS surveys both in-app and via email</span>
+                        <span class="span-paragraph">To gauge immediate user sentiment 
+                            and understand customer support
+                             interactions and tool usage.</span>
+                    </div>
+                    <div class="grid-details">
+                        <span class="span-paragraph" style="font-weight: 600;">Use NPS at multiple stages of the user journey</span>
+                        <span class="span-paragraph">During onboarding,
+                             when users have reached 
+                             an activation milestone,
+                              after adoption, and on Unique date-set.</span>
+                    </div>
+                    <div class="grid-details">
+                        <p><span style="font-weight: 600;">Conduct NPS survey frequently</span></p>
+                        <p>For gaining valuable insights</p>
+                    </div>
+                    <div class="grid-details">
+                        <p><span style="font-weight: 600;">Send NPS surveys to the right amount of customers</span></p>
+                        <p>the sample size is important
+                             when conducting a bulk survey, 
+                             you generally want to target a 
+                             moderate size to be safe.</p>
+                    </div>
+                    <div class="grid-details">
+                        <p><span style="font-weight: 600;">Always include a follow-up qualitative question</span></p>
+                        <p>Acknowledge feedback received
+                             from customers, and learn more
+                              from your promoters and drive word-of-mouth</p>
+                    </div>
+                </div> -->
+                <div>
+                <table>
+                    
+                    <tr>
+                        <td style="font-weight: 600;">Send NPS surveys both in-app and via email</td>
+                        <td>To gauge immediate user sentiment and understand customer support interactions and tool usage.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 600;">Use NPS at multiple stages of the user journey</td>
+                        <td>During onboarding, when users have reached an activation milestone, after adoption, and on unique date-set.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 600;">Conduct NPS survey frequently</td>
+                        <td>For gaining valuable insights.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 600;">Send NPS surveys to the right amount of customers</td>
+                        <td>The sample size is important when conducting a bulk survey, you generally want to target a moderate size to be safe.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 600;">Always include a follow-up qualitative question</td>
+                        <td>Acknowledge feedback received from customers, and learn more from your promoters and drive word-of-mouth.</td>
+                    </tr>
+                </table>
+            </div>
+                
+            </article>
+            <article id="solution">
+                
+                <h4 class="title">SOLUTION</h4>
+                <h2 class="headline">
+                    Simplicity for Survey Success                   
+                </h2>
+            <div class="grid-details">
+
+                <div class="description">
+
+                    <p class="des-typography"> I came to recognize that for a 
+                        survey to achieve maximum effectiveness,
+                         it should be clear, concise, and easily 
+                         comprehensible for customers. It is crucial
+                          to steer clear of industry jargon or technical 
+                          terms that may lead to confusion. 
+                          To attain these objectives, 
+                          the survey should incorporate the following features:
+                        <ul>
+                            <li><p>Customizable Survey Question.</p></li>
+                            <li><p>Real-time feedback.</p></li>
+                            <li><p>Segmentation Capabilities.</p></li>
+                            <li><p>Integration with CRM tools.</p></li>
+                            <li><p>Cultural Barriers.</p></li>
+                            <li><p>Multilingual Support.</p></li>
+                        </ul>
+                        </p>
+                   
+                </div>
+                
+                    <div >
+                        <img src="assets/survey.png" alt="Design Approach for Survey"/>
+                    </div>
+              
+</article> 
+<article id="survey-user-flow">
+                
+        <h4 class="title">SURVEY USER FLOW</h4>
+        <h2 class="headline">
+            Optimizing User Engagement
+        </h2>
+        <div class="text long-p">
+            <p>Surveys matter when users really know our 
+                product! A good follow-up question avoids 
+                random answers. Also, I swapped the "x" for
+                 a "later" button, and used a non-blocking dialog 
+                 on medium screens; while sticking to bottom 
+                 sheets for small screens.</p>
+        </div>
+        <img src="assets/survey-user-flow.png" alt="Survey User Flow"/>
+
+        <div class="explore-mockups-prototyped">
+            <h2 class="headline">
+                Explore the high fidelity mockups prototyped below:
+            </h2>
+            <div class="mockup">
+                
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);"
+                     width="800" height="450" 
+                     src="https://embed.figma.com/proto/XvJ6tlaymL5hyR8hdjadXb/NPS?page-id=0%3A1&node-id=88-14195&node-type=canvas&viewport=-1826%2C1122%2C0.28&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=8%3A10169&show-proto-sidebar=1&embed-host=share" 
+                     allowfullscreen></iframe>
+                
+            </div>
+        </div>
+</article>
+
+<article id="platform-user-flow">
+                
+    <h4 class="title">PLATFORM USER FLOW</h4>
+    <h2 class="headline">
+        Streamlined Dashboard
+    </h2>
+    <div class="text long-p">
+        <p>We aimed for a sleek 
+           <span style="font-weight: 600;">NPS</span> 
+             dashboard to consolidate survey feedback. Using 
+             <span style="font-weight: 600;">visuals</span>
+             , it aids product marketers in 
+             <span style="font-weight: 600;">tracking performance trends,</span>
+              identifying
+              <span style="font-weight: 600;">focus areas, benchmarking,</span> and
+              <span style="font-weight: 600;">segmentation</span>.
+                Additionally, the platform empowers users to personalize their NPS surveys—
+                <span style="font-weight: 600;">crafting and styling</span> them,
+                 adding insightful 
+                 <span style="font-weight: 600;">follow-up questions</span> 
+                 for context, linking surveys through 
+                 <span style="font-weight: 600;">versioning</span>, and 
+                 <span style="font-weight: 600;">controlling</span> 
+                 when and to whom the survey is triggered.</p>
+    </div>
+    <img src="assets/platform-user-flow.png" alt="Platform User Flow"/>
+</article>
+
+<article id="platform-h-f-screens">
+                
+    <h4 class="title">PLATFORM HIGH FIDELITY SCREENS</h4>
+    <h2 class="headline">
+        Visualizing Key Insights
+    </h2>
+    <div class="text long-p">
+        <p>I curated the NPS 
+            <span style="font-weight: 600;">dashboard</span> to gather 
+            survey insights, presenting them through 
+            diverse visualizations. Key data, encompassing
+             weekly/monthly NPS and percentage shifts in
+              promoters, passives, and detractors, is
+               thoughtfully included, along with segmented 
+               NPS by user groups. The dashboard showcases
+                vital visualizations—bar chart, pie chart, 
+                line chart, and response tag analysis—accessible
+                 in one centralized view for comprehensive analysis.</p>
+    </div>
+    <div>
+        <div class="user">
+            <p><span style="font-weight: 600;"> New User</span></p>
+            <img src="assets/new-user.png" alt="Design Approach for New User"/>
+
+        </div>
+        <div class="user">
+            <p><span style="font-weight: 600;"> Registered User</span></p>
+            <img src="assets/registered-user.png" alt="Design Approach for Registered User"/>
+        </div>
+    </div>
+
+        </section>
+
+
+        
+<div class="up-and-coming">
+    <h2>Up-and-coming...</h2>
+    <p>Throughout the process of 
+        crafting the NPS survey,
+         several valuable lessons have unfolded:</p>
+           <div class="anatomy-item">
+               <div class="dot">
+                   <p>1</p>
+               </div>
+               <div class="value-container">
+                        <p style="font-weight: 600;">Embracing User-Centric Design</p>
+               </div>
+               <p>I gained insights into the importance 
+                of user-centric design, ensuring the survey 
+                is not only comprehensive but also user-friendly,
+                 reflecting a commitment to a positive 
+                 user experience.</p>
+           </div>
+           <div class="anatomy-item">
+               <div class="dot">
+                   <p>2</p>
+               </div>
+               <div class="value-container">
+                        <p style="font-weight: 600;">Understanding the significance of data visualization</p>
+               </div>
+               <p>The effective use of visualizations
+                 has proven to enhance the accessibility
+                  and interpretability of survey data. 
+                  It doesn’t only facilitates easier analysis
+                   for users but also adds a layer of 
+                   engagement to the survey process.</p>
+           </div>
+           <div class="anatomy-item">
+               <div class="dot">
+                   <p>3</p>
+               </div>
+               <div class="value-container">
+                        <p style="font-weight: 600;">User feedback has been instrumental</p>
+               </div>
+               <p>It shaped the refinement of the survey,
+                 and highlighted the need for continuous 
+                 improvement and adaptability.</p>
+           </div>
+           <div class="anatomy-item">
+               <div class="dot">
+                   <p>4</p>
+               </div>
+               <div class="value-container">
+                        <p style="font-weight: 600;">Adding Value in the Future</p>
+               </div>
+               <p>AI can play a role in
+                 personalizing the survey experience based 
+                 on individual user preferences, streamlining
+                 the analysis process, and uncovering deeper 
+                 patterns in user sentiments. This forward-looking 
+                 approach that positions the NPS project as a dynamic
+                  and evolving feedback ecosystem, continuously 
+                  evolving to meet user needs and industry trends.</p>
+           </div>
+           
+
+   
+</div>
+       
+
+
+       
+
+ 
+    </main>
+    <footer id="footer" class="footer-margin">
+        <h2>Let’s Build Something Together!</h2>
+        <div class="support">
+            <div class="contact">
+                <h6>Contact Me</h6>
+                <a href="mailto:josephdibeh@gmail.com">josephdibeh@gmail.com</a>
+            </div>
+            <div class="socials">
+                <h6>Let's Connect</h6>
+                <div class="socials-img">
+                    <a href="https://www.linkedin.com/in/joseph-dibeh/" target="_blank"><img src="assets/Linkedin.svg"
+                            alt="socials LinkedIn" /></a>
+                    <a href="https://www.instagram.com/josephdibeh?igsh=MXhvcTNsOHp0MmtvaQ%3D%3D&utm_source=qr"
+                        target="_blank"><img src="assets/Instagram.svg" alt="socials Instagram"
+                            id="instagram-ico" /></a>
+                </div>
+            </div>
+            <p class="copyright">@2024 Joseph Dibeh</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
