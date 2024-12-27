@@ -128,8 +128,6 @@
     align-items: center;
     width: 57.875rem;
     transition: opacity 0.3s ease-in;
-    
-
 }
 
 .info-intro h3 {
@@ -162,3 +160,225 @@
     display: none;
 }
 
+
+/* responsive design */
+/* for large screens (desktops, laptops) */
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+
+}
+
+/* medium screens  tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .hero h1 {
+        font-size: 2.5rem;
+         margin: 6.5rem 0.4rem;
+         line-height: 2.5rem;
+         margin-bottom: 1.25rem;
+     }
+         
+     .selection svg { 
+         position: absolute;
+         width: 10rem; /* Adjust as needed */
+         margin-left: -0.45rem;
+         margin-top: -2rem;
+     /* Adjust as needed */
+     }
+     
+     .userLana {
+         position: absolute;
+         width:6rem;
+         height:6rem;
+         top: 2rem;
+         right: 2.5rem;
+         
+     }
+ 
+     @keyframes moveLana {
+         0% {
+             top: 2rem;
+             right: 1.5rem;
+         }
+         100% {
+             top: -7rem;
+             right: 15rem; 
+             
+         }
+     }
+     
+     .userJoseph {
+         position: absolute;
+         width: 6rem;
+         height: 6rem;
+         top: 8.44rem;
+         right: 0rem;
+         
+     }
+ 
+     @keyframes moveJoseph{
+         0% {
+             top: 8.44rem;
+             right:0rem;
+         }
+         100% {
+             top: 9rem;
+             right: -23rem;
+         }
+     }
+ 
+     .userOlivia{
+         position: absolute;
+         width: 6rem;
+         height: 6rem;
+         top:  16%;
+         left: 5%; 
+     }
+ 
+     @keyframes moveOlivia{
+         0% {
+             top:  16%;
+             left: 5%;  
+         }
+         100% {
+             left: -30%;
+         }
+     }
+     
+     .location-container {
+         font-size: 1rem;
+     }
+     .location-container img{
+         width:1rem;
+         height:1rem;
+     }
+         
+     .ds-info {
+         margin: 1rem 1.5rem;
+         margin-top:1.5rem;
+         width: 44rem;
+     }
+ 
+     .info-intro h3 {
+        line-height: 2rem;
+         font-size: 1.5rem;
+     }
+ 
+     .info-intro p {
+         font-size: 1rem;
+         line-height: 1.25rem;
+     }
+ 
+     .ft-info {
+         margin: 1rem 1.5rem;
+         margin-top:1.5rem;
+         width: 44rem;
+     }
+}
+
+/* small screens phones */
+@media screen and (min-width: 0px) and (max-width: 767px){
+ 
+    .hero h1 {
+       font-size: 1.8rem;
+        margin: 5rem 0.4rem;
+        line-height: 2.5rem;
+        margin-bottom: 1.25rem;
+    }
+        
+    .selection svg { 
+        position: absolute;
+        width: 7.25rem; /* Adjust as needed */
+        margin-left: -0.45rem;
+        margin-top: -2rem;
+    /* Adjust as needed */
+    }
+    
+    .userLana {
+        position: absolute;
+        width:6rem;
+        height:6rem;
+        top: 2rem;
+        right: 1.5rem;
+        
+    }
+
+    @keyframes moveLana {
+        0% {
+            top: 2rem;
+            right: 1.5rem;
+        }
+        100% {
+            top: -7rem;
+            right: 15rem; 
+            
+        }
+    }
+    
+    .userJoseph {
+        position: absolute;
+        width: 6rem;
+        height: 6rem;
+        top: 8.44rem;
+        right: 0rem;
+        
+    }
+
+    @keyframes moveJoseph{
+        0% {
+            top: 8.44rem;
+            right:0rem;
+        }
+        100% {
+            top: 9rem;
+            right: -23rem;
+        }
+    }
+
+    .userOlivia{
+        position: absolute;
+        width: 6rem;
+        height: 6rem;
+        top:  16%;
+        left: 5%; 
+    }
+
+    @keyframes moveOlivia{
+        0% {
+            top:  16%;
+            left: 5%;  
+        }
+        100% {
+            left: -30%;
+        }
+    }
+    
+    .location-container {
+        font-size: 0.8rem;
+    }
+    .location-container img{
+        width:0.8rem;
+        height:0.8rem;
+    }
+        
+    .ds-info {
+        margin: 1rem 0.5rem;
+        margin-top:1.5rem;
+        width: 19rem;
+    }
+
+    .info-intro h3 {
+       line-height: 2rem;
+        font-size: 1.1rem;
+    }
+
+    .info-intro p {
+        font-size: 0.9rem;
+        line-height: 1.25rem;
+    }
+
+    .ft-info {
+        margin: 1rem 0.5rem;
+        margin-top:1.5rem;
+        width: 19rem;
+    }
+
+}

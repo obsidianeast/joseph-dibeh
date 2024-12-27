@@ -94,3 +94,84 @@
     display: none;
     height: 6rem;
 }
+
+
+/* responsive design */
+
+/* medium screens  tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .info {
+        margin-top: 1rem;
+        padding: 0.5rem 0.75rem;
+        gap: 0.5rem;
+        width: 18rem;
+        height:2rem;
+    }
+
+    .info-element-ds {
+        padding: 0.325rem 0.25rem;
+        gap: 0.25rem;
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        width: 8rem;
+    }
+
+    .info-element-ft {
+        padding: 0.325rem 0.25rem;
+        gap: 0.25rem;
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        width: 8rem;
+    }
+
+    .default {
+        width: 9rem;
+        height: 2rem;
+        left: 26%;
+    }
+
+    .sticky {
+        top: 6rem; /* Stick to the middle of the header */
+        width: 75%;
+    }
+}
+
+/* small screens phones */
+@media screen and (min-width: 0px) and (max-width: 767px){
+    
+    .info {
+        margin-top: 1rem;
+        padding: 0.5rem 0.75rem;
+        gap: 0.5rem;
+        width: 13rem;
+        height:1.8rem;
+    }
+
+    .info-element-ds {
+        padding: 0.325rem 0.25rem;
+        gap: 0.25rem;
+        font-size: 0.7rem;
+        line-height: 1.5rem;
+        width: 7rem;
+    }
+
+    .info-element-ft {
+        padding: 0.325rem 0.25rem;
+        gap: 0.25rem;
+        font-size: 0.7rem;
+        line-height: 1.75rem;
+        width: 7rem;
+    }
+
+    .default {
+        width: 6.5rem;
+        height: 2rem;
+        left: 26%;
+    }
+
+    .sticky {
+        top: 5rem; /* Stick to the middle of the header */
+        width: 75%;
+    }
+
+}

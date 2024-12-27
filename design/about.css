@@ -2,7 +2,7 @@
     background: url(../assets/about_heroimage.png) rgb(255, 255, 255) 50% / cover no-repeat;
     background-size:contain; 
     background-position: center;
-    height: 483px;   
+    height: 30.2rem;   
        display: flex; 
      justify-content: center; 
      align-items: center; 
@@ -54,4 +54,81 @@ h2 {
     line-height: 2.75rem;
     /* 122.222% */
     letter-spacing: -0.045rem;
+}
+
+
+/* responsive design */
+/* for laptops */
+@media screen and (min-width: 992px) and (max-width:1024px) {
+    .pic-hero{
+        height: 30.2rem;
+        margin:0rem 1rem;    
+        margin-top: 6rem;
+    } 
+   
+    .content {
+        padding: 2.5rem 2.5rem;
+    }
+    .about-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 4rem;
+        grid-row-gap: 0px;
+        width:80%;
+    }
+   
+}
+/* medium screens  tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .pic-hero{
+        height: 21.875rem; 
+        margin:0rem 1rem;   
+        margin-top: 4rem;
+        
+    } 
+    p {
+        margin-top: 0.8rem;
+        font-size: 1.0125rem;
+        line-height: 1.6625rem; 
+    }
+    .content {
+        padding: 2rem 2rem;
+    }
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        width:80%;
+    }
+    h2 {
+        margin-top: 0.8rem;
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+    }
+}
+/* small screens phones */
+@media screen and (min-width: 0px) and (max-width: 767px){
+    .pic-hero{
+        height: 15.625rem;    
+        margin-top: 0rem;
+        margin:0rem 0.5rem;
+    } 
+    p {
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        line-height: 1.5rem; 
+    }
+    .content {
+        padding: 1rem 1rem;
+    }
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        width:90%;
+    }
+    h2 {
+        margin-top: 0.6rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
 }

@@ -257,6 +257,73 @@ ol{
     margin-bottom: 2rem;
  }
 
+/* interviews article design */
+
+.client-container{
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    width: 34.375rem;
+    height: 40rem;
+    border-radius: 1.5rem;
+    background: var(--sys-light-surface, #F7F7F7);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.tag{
+    gap: 0.5rem;
+}
+.client-info{
+    display: inline-flex;
+    
+    align-items: center;
+}
+.client-profile{
+  padding: 0.75rem;
+}
+
+.client-about{
+   padding: 1rem;
+}
+.client-name{
+    color: var(--sys-light-on-background, #3E3C3E);
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1rem;
+
+    /* 125% */
+    letter-spacing: -0.06rem;
+
+    /*margination*/
+    margin: 0 0 0.75rem 0;
+}
+.client-status{
+    font-size: 0.938rem;
+}
+.client-about p{
+ padding: 0.25rem;
+}
+.client-text{
+    margin-top: 1rem;
+}
+.client-title{
+    color: var(--sys-light-on-background, #0762C8);
+    margin: 0;
+    
+    margin-bottom: 0.5rem;
+    /* Display md/bold */
+    font-family: Inter;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.75rem;
+    /* 122.222% */
+    letter-spacing: -0.045rem; 
+}
+
 
 /* footer  */
 
@@ -329,9 +396,4 @@ ol{
 .moving-forward .dot p{
     color: white;
    
-}
-
-.key-margin{
-    margin-bottom: 3rem;
-    margin-top: 1rem;
 }
