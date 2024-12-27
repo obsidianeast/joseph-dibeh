@@ -4,14 +4,14 @@ setTimeout(() => {
     document.getElementById('UserLana').classList.add("userLana-anim");
    document.getElementById('sel').classList.add("selection-anim");
 
-}, 2000);
+}, 10000);
 
 setTimeout(() => {
     document.getElementById('UserJoseph').style.display = "none";
     document.getElementById('UserOlivia').style.display = "none";
     document.getElementById('UserLana').style.display = "none";
     document.getElementById('sel').style.display = "none";
-}, 2600);
+}, 16000);
 
 
  
